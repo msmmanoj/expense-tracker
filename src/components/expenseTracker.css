@@ -1,0 +1,59 @@
+.container {
+    margin: auto;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.expense {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 1.5em;
+}
+
+.expense-operations {
+    margin: 7px;
+}
+
+.transactions {
+    text-align: left;
+    font-weight: bold;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 1.5em;;
+}
+
+.transactions ul {
+    list-style-type: none;
+    font-weight: normal;
+    margin: 0;
+}
+
+.transactions ul li {
+    text-align: left;
+}
+
+@media only screen and (max-width: 1080px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 476px) {
+    .expense input {
+        width: 70%;
+    }
+
+    .transactions ul li {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .container h1 {
+        font-size: 1.5em;
+    }
+
+    .transactions ul li {
+        font-size: x-small;
+    }
+}
